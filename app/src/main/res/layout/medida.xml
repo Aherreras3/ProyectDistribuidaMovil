@@ -1,0 +1,225 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MedidaFragment">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="46dp"/> <!-- Cambia 16dp al tamaño deseado -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="horizontal">
+
+        <!-- ImageView para la imagen -->
+        <ImageView
+            android:id="@+id/idImage3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ico_voltaje"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"/>
+
+        <!-- LinearLayout para el texto -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- TextView para el título centrado -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voltaje"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold" /> <!-- Cambia el tipo de letra si es necesario -->
+
+            <!-- TextView para el valor de voltaje debajo de la imagen -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="119.2V"
+                android:textSize="24sp"
+                android:gravity="center_horizontal" /> <!-- Centra el texto horizontalmente -->
+
+            <!-- TextView para el texto debajo del valor de voltaje -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total voltaje: 0%"
+                android:textSize="14sp"
+                android:gravity="center_horizontal" /> <!-- Centra el texto horizontalmente -->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"/> <!-- Cambia 16dp al tamaño deseado -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- ImageView para la imagen -->
+        <ImageView
+            android:id="@+id/idImage4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ico_corriente"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"/>
+
+        <!-- LinearLayout para el texto -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- TextView para el título centrado -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voltaje"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold" /> <!-- Cambia el tipo de letra si es necesario -->
+
+            <!-- TextView para el valor de voltaje debajo de la imagen -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="119.2V"
+                android:textSize="24sp"
+                android:gravity="center_horizontal" /> <!-- Centra el texto horizontalmente -->
+
+            <!-- TextView para el texto debajo del valor de voltaje -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total voltaje: 0%"
+                android:textSize="14sp"
+                android:gravity="center_horizontal" /> <!-- Centra el texto horizontalmente -->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"/> <!-- Cambia 16dp al tamaño deseado -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- ImageView para la imagen -->
+        <ImageView
+            android:id="@+id/idImage5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ico_potencia"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"/>
+
+        <!-- LinearLayout para el texto -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- TextView para el título centrado -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voltaje"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold" /> <!-- Cambia el tipo de letra si es necesario -->
+
+            <!-- TextView para el valor de voltaje debajo de la imagen -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="119.2V"
+                android:textSize="24sp"
+                android:gravity="center_horizontal" /> <!-- Centra el texto horizontalmente -->
+
+            <!-- TextView para el texto debajo del valor de voltaje -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total voltaje: 0%"
+                android:textSize="14sp"
+                android:gravity="center_horizontal" /> <!-- Centra el texto horizontalmente -->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="16dp"/> <!-- Cambia 16dp al tamaño deseado -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- ImageView para la imagen -->
+        <ImageView
+            android:id="@+id/idImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/ico_hoy"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"/>
+
+        <!-- LinearLayout para el texto -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- TextView para el título centrado -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Voltaje"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold" /> <!-- Cambia el tipo de letra si es necesario -->
+
+            <!-- TextView para el valor de voltaje debajo de la imagen -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="119.2V"
+                android:textSize="24sp"
+                android:gravity="center_horizontal" /> <!-- Centra el texto horizontalmente -->
+
+            <!-- TextView para el texto debajo del valor de voltaje -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total voltaje: 0%"
+                android:textSize="14sp"
+                android:gravity="center_horizontal" /> <!-- Centra el texto horizontalmente -->
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

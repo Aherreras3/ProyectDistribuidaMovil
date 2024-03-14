@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_panel"
+            android:icon="@drawable/nav_panel"
+            android:title="Panel Principal">
+
+            <!-- Submenú -->
+            <menu>
+                <item
+                    android:id="@+id/nav_home"
+                    android:icon="@drawable/nav_home"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/nav_frecuency"
+                    android:icon="@drawable/nav_frecuency"
+                    android:title="Frecuencia" />
+
+                <item
+                    android:id="@+id/nav_estadistica"
+                    android:icon="@drawable/nav_estadistica"
+                    android:title="Estadistica" />
+
+                <item
+                    android:id="@+id/nav_historico"
+                    android:icon="@drawable/nav_historico"
+                    android:title="Historico" />
+
+                <item
+                    android:id="@+id/nav_reportes"
+                    android:icon="@drawable/nav_reportes"
+                    android:title="Reportes" />
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_perfil"
+            android:icon="@drawable/nav_perfil"
+            android:title="Perfil"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/nav_settings"
+            android:title="Configuración"/>
+    </group>
+</menu>

@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ProyectDistribuida" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/my_primary</item>
+        <item name="colorPrimaryVariant">@color/my_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!--Secundari-->
+        <item name="colorSecondary">@color/my_secundary</item>
+        <item name="colorSecondaryVariant">@color/my_secundary</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!--Tertiary-->
+
+        <item name="colorTertiary">@color/lavender</item>
+        <item name="colorOnTertiaryFixedVariant">@color/lavender</item>
+        <item name="colorOnTertiary">@color/white</item>
+
+        <item name="android:statusBarColor">@color/my_primary</item>
+    </style>
+
+    <style name="Theme.ProyectDistribuida" parent="Base.Theme.ProyectDistribuida" />
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#1c2333">
+
+    <ImageView
+        android:layout_width="84dp"
+        android:layout_height="110dp"
+        android:src="@drawable/inicio" />
+
+    <TextView
+        android:layout_width="168dp"
+        android:layout_height="121dp"
+        android:layout_marginStart="16dp"
+        android:text="Energy System"
+        android:textColor="#ffffff"
+        android:textSize="46sp" />
+</LinearLayout>
